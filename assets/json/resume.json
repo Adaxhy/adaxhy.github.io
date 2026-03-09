@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Xu Hongyue",
+    "label": "PhD student",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
+    "email": "",
+    "phone": "",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
