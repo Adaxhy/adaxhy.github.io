@@ -2,21 +2,22 @@ cv:
   name: Xu Hongyue
   label: PhD student
   email: xu.hongyue.r1@dc.tohoku.ac.jp
+  location:
   image: ""
   summary:
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  # social_networks:
+  #   - network: X
+  #     username: AlbertEinstein
+  #   - network: GitHub
+  #     username: example
+  #   - network: LinkedIn
+  #     username: example
 
   address:
     street: 
-    city: 
-    region: 
+    city: Sendai
+    region: Japan
     postalCode: 
     countryCode: 
 
@@ -28,7 +29,7 @@ cv:
         area: Information Science
         studyType: PhD
         start_date: 2025
-        end_date: 2028
+        end_date: Present
         score: ""
         # courses: "Theory of Relativity"
         # highlights:
@@ -37,9 +38,9 @@ cv:
 
       - institution: Tohoku University
         location: Sendai, Japan
-        url: https://www.tohoku.ac.jp/
+        url: 
         area: Information Science
-        studyType: Master
+        studyType: Master of Science
         start_date: 2023
         end_date: 2025
         score: ""
@@ -52,56 +53,65 @@ cv:
         location: Xiamen, China
         url: https://www.xmu.edu.cn/
         area: Mathematics and Applied Mathematics
-        studyType: Bachelor
+        studyType: Bachelor of Science (Honors)
         start_date: 2019
         end_date: 2023
         courses: "Discrete Mathematics, Linear Algebra, Probability Theory"
         highlights:
           - Neural network and deep learning development.
-          - .
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+
+      - company: ASPIRE-MWI
+        position: Research Assistant
+        location: Tokyo, Japan
+        start_date: 2025
+        end_date: Present
+        summary: 
+          - Driving the strategic narrative and digital outreach for the ASPIRE-MWI international research project.
+          - Managing multi-channel communications to amplify global research impact and academic collaborations.
         highlights:
+          - **Digital Infrastructure**: Lead the maintenance and optimization of the official project website and social media ecosystem (Instagram/LinkedIn) to ensure high-impact digital communication.
+          - **Scientific Storytelling**: Authoring technical blog posts and articles to showcase breakthrough research achievements and foster international student-researcher synergies.
+          - **Strategic Promotion**: Collaborating with cross-functional teams and external agencies to design and execute data-driven outreach strategies for project visibility.
+          - **Engagement Growth**: Enhancing community engagement through tailored content that bridges the gap between complex research themes and diverse global audiences.
+
+      - company: Rakuten
+        position: Data Engineer Intern
+        location: Tokyo, Japan
+        start_date: 2024
+        end_date: 2024
+        summary: 
           - Relativity
           - Description 2.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Tohoku University
+        position: Teaching Assistant
+        location: Sendai, Japan
+        start_date: 2024
+        end_date: 2025
+        summary: Work as an teaching assistant for undergraduate students (プログラミング演習A), providing support for their studies on C++.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Facilitated C++ programming, focusing on algorithmic logic and code efficiency.
+          - Standardized programming report writing guidelines to help students produce high-quality technical documentation.
 
       - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
+        position: Academic Tutor
+        location: Sendai, Japan
         start_date: 1917
         end_date: 1933
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
 
       - company: University of Zurich
         position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
+        location: 
         start_date: 1909
         end_date: 1911
 
     Volunteer:
       - company: People's Climate March
         position: Lead Organizer
-        location: Zurich, Switzerland
+        location: 
         start_date: 2014-04-01
         end_date: 2015-07-01
         summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
