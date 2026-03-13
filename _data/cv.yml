@@ -31,10 +31,9 @@ cv:
         start_date: 2025
         end_date: Present
         score: ""
-        # courses: "Theory of Relativity"
-        # highlights:
-        #   - Description 1.
-        #   - Description 2.
+        highlights:
+          - Motion capture and human pose estimation.
+          - Physical AI and human-AI interaction.
 
       - institution: Tohoku University
         location: Sendai, Japan
@@ -47,7 +46,6 @@ cv:
         courses: "User Interface Design"
         highlights:
           - Human in the loop design.
-          - Description 2.
 
       - institution: Xiamen University
         location: Xiamen, China
@@ -56,6 +54,7 @@ cv:
         studyType: Bachelor of Science (Honors)
         start_date: 2019
         end_date: 2023
+        score: "Top 5%"
         courses: "Discrete Mathematics, Linear Algebra, Probability Theory"
         highlights:
           - Neural network and deep learning development.
@@ -79,10 +78,9 @@ cv:
         end_date: 2024
         summary: 
         highlights:
-          # - Led the development of AI agents to transform the company's database services, creating an intelligent system that significantly enhanced client offerings. Starting with no prior knowledge of Large Language Models, I rapidly acquired expertise in AI technologies while simultaneously implementing practical solutions.
-          # - Key achievements include successfully integrating AI capabilities with existing database architecture, improving data accessibility, and delivering more responsive client services. Throughout the project, I maintained productive professional relationships with team members and contributed meaningfully to this strategic initiative.
-          # - This immersive experience provided valuable insights into enterprise-level AI implementation and database management, strengthening my technical capabilities and professional development.
-
+          - Led the development of AI agents framwork to transform the company's database services, creating an intelligent system that enhanced client offerings. 
+          - Successfully integrating AI capabilities with existing database architecture, improving data accessibility, and delivering more responsive client services. 
+          
       - company: Tohoku University
         position: Teaching Assistant
         location: Sendai, Japan
@@ -98,44 +96,38 @@ cv:
         location: Sendai, Japan
         start_date: 2024
         end_date: 2025
-        summary: 
+        summary: Dedicated Academic Tutor at Tohoku University, providing comprehensive support to international students.
         highlights:
-          - 
-          - 
+          - Provided specialized training in research methodologies, guiding tutees through academic frameworks
+          - Facilitated international student integration by providing hands-on assistance with official documentation, university procedures, and daily life navigation in Sendai, Japan
 
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: 
-        start_date: 1909
-        end_date: 1911
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: 
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Siggraph Asia 2024
+        position: Student Volunteer
+        location: Tokyo, Japan
+        start_date: 2024-12-02
+        end_date: 2024-12-07
+        summary: 
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Contributed to the execution of a large-scale international conference, managing sessions and assisting world-class presenters.
+          - Cultivated professional relationships with a diverse network of international researchers and scholars, fostering cross-border exchange on emerging industry trends.
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Graduate Program in Data Science Fellowship
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - "Xu Hongyue"
+        date: 2025-10-01
+        awarder: Tohoku University
+        url: https://gp-ds.tohoku.ac.jp/en/index.html
+        summary: Awarded to outstanding students at Tohoku University.
 
-      - title: Max Planck Medal
+      - title: Distinguished Project Award
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - "Xu Hongyue"
+        date: 2025
+        awarder: UBI Summer Schools, Ubicomp
+        summary: Awarded for outstanding project work in human-computer interaction.
 
 
     Skills:
@@ -144,13 +136,13 @@ cv:
         icon: fa-solid fa-hashtag
         keywords: "Python, C++, C#, R, MATLAB"
 
-      - name: Programming
+      - name: Other Technical Skills
         level: Master
         icon: fa-solid fa-hashtag
-        keywords: "Python, C++, C#, R, MATLAB"
+        keywords: "LLM Integration (LangChain), RAG (Retrieval-Augmented Generation), Prompt Engineering"
 
     Languages:
-      - name: Chinese
+      - name: Mandarin
         summary: "Native speaker"
 
       - name: English
@@ -159,37 +151,42 @@ cv:
       - name: Japanese
         summary: "Fluent"
 
+      - name: Hokkien/Malay
+        summary: "Elementary"
 
 
     Interests:
-      - name: Physics
+      - name: Artificial Intelligence
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Machine Learning, Deep Learning, Neural Networks, Computer Vision, physical AI"
+      - name: Human-Computer Interaction
+        icon: fa-solid fa-tag
+        keywords: "User Study Design, User Interface Design, User Experience Design"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
       - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+        date: 2026
+        issuer: Tohoku University
+        icon: fa-solid 
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Information Technology and Science Course
+        date: 2025-9-30
+        issuer: Tohoku University
+        icon: fa-solid 
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      # - name: Quantum Information
+      #   date: 2018-01-01
+      #   issuer: Stanford University
+      #   icon: fa-solid fa-envelope # options: fa-tag fa-location-dot
+
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
 
     # References:
     #   - name: Professor John Doe
